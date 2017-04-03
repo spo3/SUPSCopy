@@ -1,0 +1,52 @@
+﻿html {
+    background:url("logo.jpg") no-repeat left top fixed;
+    background-size:30% 30%;
+    color:white;
+    
+}
+
+#whiteText{
+    color:white;
+}
+label{
+    color:white;
+}
+
+body {
+    background:    -moz-linear-gradient(top, blue 0%,white 100%) no-repeat; /* FF3.6+ */
+    background: -webkit-linear-gradient(top, blue 0%, white 100%) no-repeat; /* Chrome10+,Safari5.1+ */
+    background:      -o-linear-gradient(top, blue 0%, white 100%) no-repeat; /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top, blue 0%, white 100%) no-repeat; /* IE10+ */
+    background:         linear-gradient(top, blue 0%, white 100%) no-repeat; /* the standard way */
+    float:right;
+    margin:auto;
+    padding:0;
+    width:60%;
+}
+
+#nav {
+    background:lightslategray;
+}
+
+label{
+    text-decoration-color:white;
+}
+
+#nav li{
+    display:inline;
+    margin-right:10%;
+    text-decoration:none
+}
+
+#nav a {
+    text-decoration:none;
+}
+
+#nav a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+#whiteText{
+    color:white;
+}
